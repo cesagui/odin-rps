@@ -55,9 +55,10 @@ function playRound(playerChoice, computerChoice){
     console.log("Scores\nPlayer: " + playerScore + "\tComputer: " + computerScore);
 }
 
+let playerScore = 0;
+let computerScore = 0;
+
 function playGame(){
-    let playerScore = 0;
-    let computerScore = 0;
 
     for (let i = 0; i < 5; i++){
         let h = getHumanChoice();
